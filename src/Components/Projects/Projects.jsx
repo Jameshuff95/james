@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import '../src/index.css';
-import '../CSS/Projects.css';
+import '../../index.css';
+import './Projects.css';
 
 const Projects = () => {
   const projects = [

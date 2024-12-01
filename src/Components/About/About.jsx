@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import '../src/index.css';
-import '../CSS/About.css';
+import '../../index.css';
+import './About.css';
 
 const About = () => {
   const [currentSection, setCurrentSection] = useState('Mission');

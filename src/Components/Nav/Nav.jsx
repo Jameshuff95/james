@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import '../CSS/Nav.css';
+import './Nav.css';
 
 const Nav = () => {
   const [theme, setTheme] = useState('dark');

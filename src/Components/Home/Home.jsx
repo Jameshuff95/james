@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../src/index.css';
-import '../CSS/Home.css';
+import '../../index.css';
+import './Home.css';
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
         <div id="home_inner">
           <div id="home_inner_two">
             <div id="home_inner_three">
-              <img id="me" src="../assets/logo.png" alt="A picture of James." />
+              <img id="me" src="../../assets/logo.png" alt="A picture of James." />
               <p>
                 Hi, I’m James. I build responsive and dynamic websites using
                 React and Bootstrap. Explore my projects and see my work in

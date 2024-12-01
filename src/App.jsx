@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Nav from '../Components/Nav';
-import Home from '../Components/Home';
-import About from '../Components/About';
-import Projects from '../Components/Projects';
-import Contact from '../Components/Contact';
+import Nav from './Components/Nav/Nav.jsx';
+import Home from './Components/Home/Home.jsx';
+import About from './Components/About/About.jsx';
+import Projects from './Components/Projects/Projects.jsx';
+import Contact from './Components/Contact/Contact.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';

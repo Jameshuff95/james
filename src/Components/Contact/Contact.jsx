@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../src/index.css';
-import '../CSS/contact.css';
+import '../../index.css';
+import './Contact.css';
 
 const ContactForm = () => {
   const [status, setStatus] = useState('');
